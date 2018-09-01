@@ -12,9 +12,11 @@ This is my **_first_** ever project I wrote in Python.
 * Can you guess what?
 ## TO-DO:
 * Save the webms only into seperated folders.
+* Save the webms including their original name.
 * Figure out how to use ffmpeg to stream a continous stream.
 * Figure out how to overlay video with text (Now playing: xyz.webm from xyz) ontop of the stream.
 * Probably ditch the idea of using a database and use JSON instead.
 * Make a website for the project with a chat.
+
 Will I do these? Probably not.
 Please help me make the code better and prettyier, it's a clusterfark right now.
