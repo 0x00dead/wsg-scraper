@@ -59,19 +59,11 @@ for pg in range(11):
 				print 'YLYL Thread found:', current["no"]
 				t = current["no"]
 				c.execute('INSERT INTO YLYL (num) VALUES (?)', (t,))
-			if (current["sub"].find('WSG') != -1):
+			if (current["sub"].find('[as] style bumps') != -1):
 				print '[wsg] Thread found:', current["no"]
 				t = current["no"]
 				c.execute('INSERT INTO WSG (num) VALUES (?)', (t,))
-			if (current["sub"].find('[WSG]') != -1):
-				print '[wsg] Thread found:', current["no"]
-				t = current["no"]
-				c.execute('INSERT INTO WSG (num) VALUES (?)', (t,))
-			if (current["sub"].find('[wsg]') != -1):
-				print '[wsg] Thread found:', current["no"]
-				t = current["no"]
-				c.execute('INSERT INTO WSG (num) VALUES (?)', (t,))
-			if (current["sub"].find('wsg') != -1):
+			if (current["sub"].find('Come share an [experience] with us.') != -1):
 				print '[wsg] Thread found:', current["no"]
 				t = current["no"]
 				c.execute('INSERT INTO WSG (num) VALUES (?)', (t,))
@@ -223,15 +215,11 @@ for pg in range(11):
 				print '[wsg] Thread found:', current["no"]
 				t = current["no"]
 				c.execute('INSERT INTO WSG (num) VALUES (?)', (t,))
-			if (current["com"].find('[WSG]') != -1):
+			if (current["com"].find('[as] style bumps') != -1):
 				print '[wsg] Thread found:', current["no"]
 				t = current["no"]
 				c.execute('INSERT INTO WSG (num) VALUES (?)', (t,))
-			if (current["com"].find('[wsg]') != -1):
-				print '[wsg] Thread found:', current["no"]
-				t = current["no"]
-				c.execute('INSERT INTO WSG (num) VALUES (?)', (t,))
-			if (current["com"].find('wsg') != -1):
+			if (current["com"].find('Come share an [experience] with us.') != -1):
 				print '[wsg] Thread found:', current["no"]
 				t = current["no"]
 				c.execute('INSERT INTO WSG (num) VALUES (?)', (t,))
