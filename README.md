@@ -11,6 +11,7 @@ This is my **_first_** ever project I wrote in Python.
 *clear_tables.py* is supposed to:
 * Can you guess what?
 ## TO-DO:
+* Pretty up the code and comment it properly.
 * Save the webms only into seperated folders.
 * Save the webms including their original name.
 * Figure out how to use ffmpeg to stream a continous stream.
