@@ -20,4 +20,4 @@ This is my **_first_** ever project I wrote in Python.
 * Make a website for the project with a chat.
 
 Will I do these? Probably not.
-Please help me make the code better and prettyier, it's a clusterfark right now.
+Please help me make the code better and prettier, it's a clusterfark right now.
